@@ -460,7 +460,7 @@ if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} L
 sticWait(from)
 ini_txt = args.join(" ")
 gfx = await getBuffer(`https://hardianto.xyz/api/bot/${command}?apikey=${HardiApi}&nama=${ini_txt}`)
-Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Lexxy Officia*'})
+Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By BarrGans*'})
 break
 case 'gfx3':
 case 'gfx4':
@@ -469,14 +469,14 @@ sticWait(from)
 ini_txt1 = args[0]
 ini_txt1 = args[1]
 gfx = await getBuffer(`https://hardianto.xyz/api/bot/${command}?apikey=${HardiApi}&text1=${ini_txt1}&text2=${ini_txt2}`)
-Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Lexxy Officia*'})
+Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Barr Gans*'})
 break
 case 'gfx6':
 if (args.length ==0) return reply(`Text Nya Mana? Contohnya\n${prefix+command} Lexxy`)
 sticWait(from)
 ini_txt = args.join(" ")
 gfx = await getBuffer(`https://hardianto.xyz/api/bot/gura?apikey=${HardiApi}&nama=${ini_txt}`)
-Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By Lexxy Officia*'})
+Lexxy.sendMessage(from, gfx, image, { quoted: mek, caption: '*Logo By BarrGans*'})
 break
 case 'tolol':
 case 'goblok':
@@ -504,7 +504,7 @@ sw =`┏━━━━━━━━━━━━━━⬣
 ┃〔 KELEBIHAN BOT 〕
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃⬡ ON 24 JAM
-┃⬡ RUN DI RDP
+┃⬡ RUN DI RDP/VPS
 ┃⬡ ANTI DELAY 
 ┃⬡ ANTI LINK
 ┃⬡ WELCOME TEXT
@@ -514,9 +514,9 @@ sw =`┏━━━━━━━━━━━━━━⬣
 ┃⬡ TF - SEND BUKTI - JOIN GRUP
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃ *PAYMENT*
-┃Dana : 0881-7864-684
-┃Ovo : 0823-1646-4080
-┃Pulsa : 0823-1646-4080
+┃Dana : 0858-5006-3401
+┃Ovo : 0858-5006-3401
+┃Pulsa : 0858-5006-3401
 ┃
 ┃Note :
 ┃Jika Sudah Transfer Wajib Kirim
@@ -549,7 +549,7 @@ st =`╭───❒ ♛ 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤 ♛
 ╭──❒ ♛ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 ♛
 ❒ 𝐍𝐚𝐦𝐞 : *${botName}*
 ❒ 𝐎𝐰𝐧𝐞𝐫 : *${ownerName}*
-❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *Lexxy Official*
+❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *Barr Official*
 ❒ 𝐏𝐫𝐞𝐟𝐢𝐱 : *Multi Prefix*
 ❒ 𝐋𝐢𝐛 : *Baileys*
 ❒ 𝐓𝐲𝐩𝐞 : *NodeJS*
@@ -1075,7 +1075,7 @@ sendButLoc(from, st, st2, img1, but)
 Lexxy.sendMessage(from, yu, audio, { mimetype: 'audio/mp4', ptt:true })
 break
 case 'scbot':
-reply('Bot ini Menggunakan sc\nhttps://youtu.be/_44pvsbCR6s')
+reply('Kepo bet lu')
 break
 case 'runtime':
 uptime = process.uptime();
@@ -1109,19 +1109,19 @@ case 'gheayubi':
 case 'nantalia':
 sticWait(from)
 asupan = await getBuffer(`https://apidhani.herokuapp.com/api/asupan/${command}?apikey=${dhakey}`)
-Lexxy.sendMessage(from, asupan, video, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, asupan, video, {quoted: mek, caption: 'BarrGans'})
 break
 case 'hijaber':
 sticWait(from)
 asupan = await getBuffer(`https://apidhani.herokuapp.com/api/asupan/hijaber?apikey=${dhakey}`)
-Lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, asupan, image, {quoted: mek, caption: 'barrGans'})
 break
 case 'quotesimage':
 case 'renungan':
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/${command}?apikey=${dhakey}`)
 oke = await getBuffer(anu.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'barrGans'})
 break
 case 'darkjoker':
 case 'darkjokes':
@@ -1129,7 +1129,7 @@ case 'darkjokers':
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/random/darkjokes?apikey=${dhakey}`)
 oke = await getBuffer(anu.result.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'BarrGans'})
 break
 case 'wallpapermuslim':
 case 'wallpapercyberspace':
@@ -1138,11 +1138,11 @@ case 'wallpaperprogramming':
 case 'wallpapertechnology':
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/other/${command}?apikey=${dhakey}`)
 oke = await getBuffer(anu.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'BarrGans'})
 break
 case 'wallpapernaruto':
 oke = await getBuffer(`https://apidhani.herokuapp.com/api/anime/naruto?apikey=${dhakey}`)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'BarrGans'})
 break
 case 'quotesmaker':
 if (!isPremier)return reply(mess.premier)
@@ -1150,7 +1150,7 @@ if (isBanned)return sticBanned(from)
 if (args.length == 0) return reply(`Teks Nya Mana ?\nContoh : ${prefix + command} Saya Suka Kamu`)
 sticWait(from)
 buff = await getBuffer(`https://leyscoders-api.herokuapp.com/api/quote-maker?text=${q}&apikey=${LeysKey}`)
-Lexxy.sendMessage(from, buff, image, {thumbnail: Buffer.alloc(0), quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, buff, image, {thumbnail: Buffer.alloc(0), quoted: mek, caption: 'BarrGans'})
 break
 case 'tinyurl':
 anu = await fetchJson(`https://leyscoders-api.herokuapp.com/api/tinyurl?url=${q}&apikey=${LeysKey}`)
@@ -1882,14 +1882,14 @@ teks = args.join(" ")
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/${command}?apikey=${dhakey}&text=${teks}`)
 oke = await getBuffer(anu.result)
-Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, oke, image, {quoted: mek, caption: 'BarrGans'})
 break
 case 'hartatahta': 
 if (args.length < 1) return reply(`*Teks nya mana?*\n_Contoh : ${prefix + command} namamu_`) 
 teks = args.join(" ")
 sticWait(from)
 harta = await getBuffer(`https://apidhani.herokuapp.com/api/maker/harta-tahta?apikey=${dhakey}&text=${teks}`)
-Lexxy.sendMessage(from, harta, image, {quoted: mek, caption: '𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥'})
+Lexxy.sendMessage(from, harta, image, {quoted: mek, caption: 'BarrGans'})
 break
 
 //----> 2 TEXT <----//
@@ -1902,7 +1902,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/8bit?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'pornhub':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1912,7 +1912,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/pornhub?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'toxic':
 Toxic().then(toxic => {
@@ -1927,7 +1927,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/glitch?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'glitch2':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1937,7 +1937,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/glitch2?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'layered':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1947,7 +1947,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/layered?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case '3dsteel':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1957,7 +1957,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/3dsteel?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'realistic':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1967,7 +1967,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/realistic?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'lionlogo':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1977,7 +1977,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/lionlogo?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'ninjalogo':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1987,7 +1987,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/ninjalogo?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `barrGans`, quoted: mek})
 break
 case 'halloween2':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -1997,7 +1997,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/halloween2?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'marvel':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2007,7 +2007,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/marvelstudio?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `barrGans`, quoted: mek})
 break
 case 'marvel2':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2017,7 +2017,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/marvelstudio2?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'cinematic':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2027,7 +2027,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/cinematichorror?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `barrGans`, quoted: mek})
 break
 case 'avengers':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2037,7 +2037,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/avengerslogo?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'graffiti3':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2047,7 +2047,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/coolwallgraffiti?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'captain':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2057,7 +2057,7 @@ var F2 = F.split("&")[1];
 sticWait(from)
 anu = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/captainamerica?apikey=${dhakey}&text1=${F1}&text2=${F2}`)
 pornhub = await getBuffer(anu.result)
-Lexxy.sendMessage(from, pornhub, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, pornhub, image, {caption: `barrGans`, quoted: mek})
 break
 case 'girlneko':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2066,7 +2066,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/girlneko?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'sadboy':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2075,7 +2075,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/sadboy?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'kaneki':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2084,7 +2084,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/kaneki?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'rem':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2093,7 +2093,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/rem?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'lolimaker':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama1&nama2*`)
@@ -2102,7 +2102,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/lolimaker?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'gura':
 if (args.length < 1) return reply(`*Contoh : ${prefix + command} nama*`)
@@ -2111,7 +2111,7 @@ var F1 = F.split("&")[0];
 var F2 = F.split("&")[1]; 
 sticWait(from)
 girlneko = await getBuffer(`https://apidhani.herokuapp.com/api/maker/gura?apikey=${dhakey}&text=${F1}&text2=${F2}`)
-Lexxy.sendMessage(from, girlneko, image, {caption: `𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐋𝐞𝐱𝐱𝐲 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥`, quoted: mek})
+Lexxy.sendMessage(from, girlneko, image, {caption: `BarrGans`, quoted: mek})
 break
 case 'readall':
 if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
@@ -2131,7 +2131,7 @@ if (args.length ==0)return reply(`Textnya mana kak? Contoh\n${prefix + command} 
 bo = args.join(" ")
 sticWait(from)
 bf = await getBuffer(`https://ziy.herokuapp.com/api/${command}?nama=${bo}&apikey=${ziyApi}`)
-Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'Logo By Lexxy Official' })
+Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'Logo By BarrGans' })
 break
 case 'girlneko':
 case 'sadboy':

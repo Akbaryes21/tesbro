@@ -549,7 +549,6 @@ st =`╭───❒ ♛ 𝙐𝙨𝙚𝙧 𝙄𝙣𝙛𝙤 ♛
 ╭──❒ ♛ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 ♛
 ❒ 𝐍𝐚𝐦𝐞 : *${botName}*
 ❒ 𝐎𝐰𝐧𝐞𝐫 : *${ownerName}*
-❒ 𝐀𝐮𝐭𝐡𝐨𝐫 : *Barr Official*
 ❒ 𝐏𝐫𝐞𝐟𝐢𝐱 : *Multi Prefix*
 ❒ 𝐋𝐢𝐛 : *Baileys*
 ❒ 𝐓𝐲𝐩𝐞 : *NodeJS*
@@ -2131,7 +2130,7 @@ if (args.length ==0)return reply(`Textnya mana kak? Contoh\n${prefix + command} 
 bo = args.join(" ")
 sticWait(from)
 bf = await getBuffer(`https://ziy.herokuapp.com/api/${command}?nama=${bo}&apikey=${ziyApi}`)
-Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'Logo By BarrGans'' })
+Lexxy.sendMessage(from, bf, image, { quoted: flexx, caption: 'Logo By BarrGans' })
 break
 case 'girlneko':
 case 'sadboy':
